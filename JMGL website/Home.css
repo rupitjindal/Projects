@@ -513,3 +513,126 @@ header nav{
             left: 100%;
         }
     }
+
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+.section2{
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3cm;
+    background: linear-gradient(white,rgb(66, 70, 70));
+    opacity: 0.5;
+    font-size: 1rem;
+    font-family: 'Aborato';
+}
+.section2:hover{
+    opacity: 0.8;
+    background-color: violet;
+}
+.container2{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container3{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left2{
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 2cm;
+    text-align: center;
+    align-content: center;
+    font-size: 1rem;
+    font-family: 'Aborato';
+}
+
+.right3{
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Aborato';
+}
+
+.section3 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 300px;
+}
+.container {
+  border: 1px solid black;
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(images/services_air_and_ocean_freight.webp);
+ opacity: 0.75;
+}
+.container:hover{
+    opacity: 1;
+}
+.left {
+  width: 50%;
+  height: 300px;
+  background: url(images/services_freight_forwarding.jpg)
+    no-repeat center / cover;
+  border-radius: 8px;
+}
+.right {
+  width: 50%;
+  min-height: 400px;
+  background-color: #303137;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+}
+.right h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.right p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+.right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+
